@@ -1,0 +1,125 @@
+*{
+  padding:0px; margin:0px;
+	-webkit-user-select: none;  /* prevent copy paste for all elements */
+	-webkit-text-size-adjust: none;
+	color: #444;
+	font-family:helvetica;
+	border-color: #00ADFF !important;
+}
+
+/*LAYOUT*/
+div#header{
+  position: absolute;
+  left:0px;
+  right:0px;
+  top:0px;
+  height:41px;
+  background: #FFF url('') 6px 8px no-repeat;
+  border-bottom: 1px solid #00ADFF;
+}
+
+
+div#map, div#canvas{
+  position: absolute;
+  left:0px;
+  right:0px;
+  top:42px;
+  bottom:42px;
+}
+
+div#header h1{
+  position:absolute;
+  left: 120px;
+  width:60px;
+  top:12px;
+  height: 24px;
+  font-size:14px;
+
+}
+
+div#header select{
+  -webkit-appearance: none;
+  color:white;
+  background:#00ADFF;
+  position:absolute;
+  left: 200px;
+  right:4px;
+  top:8px;
+  height: 24px;
+  font-size:14px;
+  border:none;
+  text-align:center;
+  font-weight: bold;
+  /*ellipsis in doen*/
+}
+
+div#footer{
+  position: absolute;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  height:41px;
+  background: #FFF 6px 8px no-repeat;
+  border-top: 1px solid #00ADFF;
+}
+
+div#footer h2{
+  position:absolute;
+  width:20px;
+  top:14px;
+  height: 24px;
+  font-size:14px;
+  font-weight:normal;
+  color: #00ADFF;
+}
+
+div#footer h2#begin{
+  left:10px;
+}
+
+div#footer h2#end{
+  right:10px;
+}
+
+div#footer .sliderholder{
+  position:absolute;
+  left:40px;
+  right:40px;
+  top:14px;
+}
+
+div#footer #time{
+  position: absolute;
+  right: 10px;
+  top:-20px;
+  font-size:10px;
+}
+
+.ui-slider{
+  border: 1px solid #444 !important;
+}
+
+.ui-state-focus{
+/*  background: #444 !important;*/
+  border: none;
+}
+
+
+.ui-slider-handle{
+   outline: none;
+}
+
+.ui-slider-handle span{
+  display:block;
+  width:30px;
+  text-align:center;
+  margin-top:-23px;
+  margin-left:-8px;
+  padding:4px;
+  font-size:10px;
+  color:white;
+  border: none;
+  text-decoration:none;
+  background:#00ADFF;
+ 
+}
