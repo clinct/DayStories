@@ -1,0 +1,13 @@
+## INFO
+
+Mobile data visualization Web-App for temporal and geographic datasets, initially build for the VPRO during app-in-a-day on 16 Feb 2011.
+
+## KNOWN BUGS
+
+* Slider not really working at the moment, as in no data is coming back from the server
+* Somehow the ui-slider captures all the touch events so scaling of the freaking nice khtml calendar won't work anymore...
+
+Uhm.. plenty more probably, this is just an initial commit
+
+
+CC0
